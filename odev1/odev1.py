@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread("C:/Users/erdal/OneDrive/Belgeler/image-processing/images/ucak.jpg",0)
+img = cv2.imread("C:/Users/erdal/OneDrive/Belgeler/image-processing-Inonu/images/ucak.jpg",0)
 
 def calculate_histogram(image):
     histogram = np.zeros((256,), dtype=int)
